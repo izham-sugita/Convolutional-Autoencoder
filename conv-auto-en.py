@@ -15,8 +15,8 @@ from keras.layers import MaxPooling2D, Dropout, UpSampling2D
 
 plt.figure(figsize=(20,8))
 img = cv2.imread('E:/a/Glaucoma/data2/train/glaucoma (1).png', 0)
-plt.imshow(img, cmap='gray')
-print(img.shape)
+#plt.imshow(img, cmap='gray')
+#print(img.shape)
 
 TRAIN_IMAGES = glob.glob('E:/a/Glaucoma/dataset/train/*.png')
 CLEAN_IMAGES = glob.glob('E:/a/Glaucoma/dataset/train/*.png')
