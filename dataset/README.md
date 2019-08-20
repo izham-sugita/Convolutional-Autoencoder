@@ -1,1 +1,1 @@
-The dataset folder does not contain all the images required to train the model. Please use your own dataset.
+The bright color image is gloucoma the blur images is not-glaucoma
